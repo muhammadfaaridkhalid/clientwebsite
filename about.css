@@ -1,0 +1,207 @@
+
+*{
+
+    margin: 0;
+    padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+    overflow-x: hidden;
+    
+}
+
+.container-fluid{
+
+    background-color: rgb(4,59,92);
+    
+}
+
+
+/* 
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+h1, h2 {
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+h3, p {
+	margin-top: 0;
+} */
+
+
+
+
+
+
+
+
+
+/* Footer Section Code Start */
+.footer-section {
+
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+.footer-section h4 {
+
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.footer-section ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-section li {
+
+    margin-bottom: 10px;
+
+}
+
+.footer-section a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer-section a:hover {
+
+    color: #ccc;
+
+}
+
+.social-media {
+
+    margin-top: 20px;
+
+}
+
+.social-media li {
+
+    /* display: inline-block; */
+    margin-right: 10px;
+
+}
+
+.social-media i {
+
+    font-size: 19px;
+
+}
+
+.copyright {
+
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0);
+
+}
+
+/* Responsive Design  Code Start*/
+
+@media (max-width: 768px) {
+
+.footer-section {
+
+    padding: 20px 0;
+
+}
+.footer-section h4 {
+
+    font-size: 18px;
+
+}
+.footer-section ul {
+
+    padding: 0 20px;
+
+}
+.social-media {
+
+    margin-top: 10px;
+
+}
+.social-media li {
+
+    margin-right: 5px;
+
+}
+.copyright {
+
+    padding: 5px 0;
+
+}
+}
+
+@media (max-width: 480px) {
+.footer-section {
+
+    padding: 10px 0;
+
+}
+.footer-section h4 {
+    
+    font-size: 16px;
+
+}
+.footer-section ul {
+
+    padding: 0 10px;
+
+}
+.social-media {
+
+    margin-top: 5px;
+
+}
+.social-media li {
+
+    margin-right: 2px;
+
+}
+.copyright {
+
+    padding: 2px 0;
+
+}
+
+}
